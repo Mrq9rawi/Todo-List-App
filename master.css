@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	color: #023047;
+}
+
+body {
+	background-color: #fdf0d5;
+}
+
+.container {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.form {
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+	background-color: #669bbc;
+	border-radius: 15px;
+}
+
+input {
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	border-radius: 15px;
+}
+
+input[type="text"] {
+	width: 300px;
+}
+
+input[type="submit"] {
+	background-color: #2d6a4f;
+	color: white;
+	cursor: pointer;
+}
+
+.tasks {
+	display: none;
+	flex-direction: column;
+	gap: 20px;
+	background-color: #003049;
+	padding: 20px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.task {
+	display: flex;
+	gap: 20px;
+}
+
+.tasks p {
+	background-color: white;
+	width: 300px;
+	padding: 10px 20px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+}
+
+.tasks button {
+	background-color: #780000;
+	color: white;
+	border: none;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	padding: 10px 20px;
+	width: 94.59px;
+	cursor: pointer;
+
+}
